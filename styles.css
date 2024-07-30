@@ -1,0 +1,33 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container {
+    border: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    width: 800px;
+}
+
+.img-frame {
+    border: 3px solid red;
+
+    height: 400px;
+    width: 900px;
+}
